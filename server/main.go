@@ -13,7 +13,7 @@ const (
 )
 
 type helloServer struct {
-	pb.GreetServiceClient
+	pb.UnimplementedGreetServiceServer
 }
 
 func main(){
