@@ -87,9 +87,7 @@ For a deeper understanding of gRPC in Go, consider exploring the following resou
 
 * [gRPC Basics Tutorial in Go](https://grpc.io/docs/languages/go/basics/)
 * [gRPC-Go Examples](https://pkg.go.dev/google.golang.org/grpc/examples)
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 
