@@ -1,11 +1,11 @@
 # Go gRPC Demo
 
-This repository showcases a basic implementation of gRPC in Go, demonstrating the four types of gRPC communication patterns:([DEV Community][1])
+This repository showcases a basic implementation of gRPC in Go, demonstrating the four types of gRPC communication patterns:
 
 * Unary RPC
 * Server-side streaming RPC
 * Client-side streaming RPC
-* Bidirectional streaming RPC([Sanarias][2], [gRPC][3])
+* Bidirectional streaming RPC
 
 ## Project Structure
 
@@ -13,7 +13,7 @@ The project is organized into the following directories:
 
 * **proto/**: Contains the `.proto` files defining the gRPC services and messages.
 * **server/**: Implements the gRPC server that handles client requests.
-* **client/**: Implements the gRPC client that communicates with the server.([GitHub][4])
+* **client/**: Implements the gRPC client that communicates with the server.
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ Ensure you have the following installed:
 
 * Protocol Buffers Compiler (`protoc`)
 
-* Go plugins for the Protocol Buffers Compiler:([Sanarias][2])
+* Go plugins for the Protocol Buffers Compiler:
 
 ```bash
   go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
@@ -86,8 +86,7 @@ The client will interact with the server using the various gRPC communication pa
 For a deeper understanding of gRPC in Go, consider exploring the following resources:([gRPC][3])
 
 * [gRPC Basics Tutorial in Go](https://grpc.io/docs/languages/go/basics/)
-* [gRPC-Go Examples](https://pkg.go.dev/google.golang.org/grpc/examples)([gRPC][3], [Go Packages][5])
-
+* [gRPC-Go Examples](https://pkg.go.dev/google.golang.org/grpc/examples)
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
