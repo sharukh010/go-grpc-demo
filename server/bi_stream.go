@@ -7,7 +7,7 @@ import (
 	pb "github.com/sharukh010/go-grpc-demo/proto"
 )
 
-func (s *helloServer) SayHelloBidirectionalStreaming(stream pb.GreetService_SayHelloBidirectonalStreamingServer) error {
+func (s *helloServer) SayHelloBidirectionalStreaming(stream pb.GreetService_SayHelloBidirectionalStreamingServer) error {
 	for {
 		req,err := stream.Recv()
 		if err == io.EOF{
